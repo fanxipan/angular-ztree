@@ -106,6 +106,26 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\app.js" />
+    <Content Include="App\configs\app.config.js" />
+    <Content Include="App\configs\main.js" />
+    <Content Include="App\configs\restangular.config.js" />
+    <Content Include="App\configs\route.config.js" />
+    <Content Include="App\decorators\list.service.decorator.js" />
+    <Content Include="App\decorators\main.js" />
+    <Content Include="App\directives\datepicker.directive.js" />
+    <Content Include="App\directives\datepicker.html" />
+    <Content Include="App\directives\displayText.directive.js" />
+    <Content Include="App\directives\displayText.html" />
+    <Content Include="App\directives\main.js" />
+    <Content Include="App\services\list.service.js" />
+    <Content Include="App\services\main.js" />
+    <Content Include="App\services\user.service.js" />
+    <Content Include="App\startup.js" />
+    <Content Include="App\styles\main.css" />
+    <Content Include="App\views\home.controller.js" />
+    <Content Include="App\views\home.html" />
+    <Content Include="App\views\main.js" />
     <Content Include="Assets\bower_components\angular-animate\angular-animate.js" />
     <Content Include="Assets\bower_components\angular-animate\angular-animate.min.js" />
     <Content Include="Assets\bower_components\angular-animate\index.js" />
@@ -121,6 +141,7 @@
     <Content Include="Assets\bower_components\angular\index.js" />
     <Content Include="Assets\bower_components\lodash\lodash.js" />
     <Content Include="Assets\bower_components\lodash\lodash.min.js" />
+    <Content Include="Assets\bower_components\requirejs\require.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -153,6 +174,9 @@
     <Content Include="Assets\bower_components\lodash\.bower.json" />
     <Content Include="Assets\bower_components\lodash\bower.json" />
     <Content Include="Assets\bower_components\lodash\LICENSE" />
+    <Content Include="Assets\bower_components\requirejs\.bower.json" />
+    <Content Include="Assets\bower_components\requirejs\bower.json" />
+    <Content Include="Assets\bower_components\requirejs\README.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -183,7 +207,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\controllers\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
