@@ -6,9 +6,9 @@ require.config({
 
 define([
     "angular",
-    "lodash",
-    "displayText.directive",
-    "datepicker.directive",
+    "lodash"
+    //"displayText.directive",
+    //"datepicker.directive",
 ], function (angular, _) {
     var moduleName = "app.directives",
         module = angular.module(moduleName, []),

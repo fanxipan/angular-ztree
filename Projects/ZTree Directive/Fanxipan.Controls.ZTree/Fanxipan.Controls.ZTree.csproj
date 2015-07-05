@@ -107,9 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\app.js" />
-    <Content Include="App\configs\app.config.js" />
     <Content Include="App\configs\main.js" />
-    <Content Include="App\configs\restangular.config.js" />
     <Content Include="App\configs\route.config.js" />
     <Content Include="App\decorators\list.service.decorator.js" />
     <Content Include="App\decorators\main.js" />
@@ -123,7 +121,9 @@
     <Content Include="App\services\user.service.js" />
     <Content Include="App\startup.js" />
     <Content Include="App\styles\main.css" />
-    <Content Include="App\views\home.controller.js" />
+    <Content Include="App\views\home.controller.js">
+      <DependentUpon>home.html</DependentUpon>
+    </Content>
     <Content Include="App\views\home.html" />
     <Content Include="App\views\main.js" />
     <Content Include="Assets\bower_components\angular-animate\angular-animate.js" />
@@ -178,7 +178,6 @@
     <Content Include="Views\Default\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DefaultController.cs" />

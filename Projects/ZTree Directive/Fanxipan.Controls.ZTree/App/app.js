@@ -4,13 +4,11 @@ require([
     "lodash",
     "angular",
     "angular-route",
-    "angular-resource",
-    "restangular",
     "views",
     "directives",
     "services",
     "decorators",
-    "configs",
+    "configs"
 ], function (_, angular) {
     var appName = "expApp",
         modules = _.drop(arguments, 2);

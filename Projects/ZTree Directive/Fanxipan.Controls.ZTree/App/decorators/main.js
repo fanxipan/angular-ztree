@@ -6,8 +6,8 @@ require.config({
 
 define([
     "angular",
-    "lodash",
-    "list.service.decorator",
+    "lodash"
+    //"list.service.decorator",
 ], function (angular, _) {
     var moduleName = "app.decorators",
         module = angular.module(moduleName, []),

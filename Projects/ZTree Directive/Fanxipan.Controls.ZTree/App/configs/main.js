@@ -7,9 +7,7 @@ require.config({
 define([
     "angular",
     "lodash",
-    "app.config",
-    "restangular.config",
-    "route.config",
+    "route.config"
 ], function (angular, _) {
     var moduleName = "app.configs",
         module = angular.module(moduleName, []),

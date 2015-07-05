@@ -6,9 +6,9 @@ require.config({
 
 define([
     "angular",
-    "lodash",
-    "list.service",
-    "user.service",
+    "lodash"
+    //"list.service",
+    //"user.service"
 ], function (angular, _) {
     var moduleName = "app.services",
         module = angular.module(moduleName, []),

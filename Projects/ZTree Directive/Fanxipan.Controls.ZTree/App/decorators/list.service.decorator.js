@@ -1,8 +1,8 @@
 ﻿"use strict";
 
 define([
-    "lodash",
-],function (_) {
+    "lodash"
+], function (_) {
     return ["listService", [
         "$delegate",
         function ($delegate) {

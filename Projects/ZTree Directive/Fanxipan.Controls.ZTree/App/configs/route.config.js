@@ -6,7 +6,7 @@ define(function () {
             $routeProvider
                 .when("/", {
                     controller: "HomeController",
-                    templateUrl: "/App/views/home.html",
+                    templateUrl: "/App/views/home.html"
                 })
                 .otherwise("/");
         },

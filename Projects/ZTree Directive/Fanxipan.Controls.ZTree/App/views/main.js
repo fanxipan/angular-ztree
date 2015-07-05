@@ -1,7 +1,7 @@
 ﻿"use strict";
 
 require.config({
-    baseUrl: "/App/views",
+    baseUrl: "/App/views"
 });
 
 define([
