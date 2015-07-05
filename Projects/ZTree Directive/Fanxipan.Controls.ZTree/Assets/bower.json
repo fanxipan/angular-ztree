@@ -19,6 +19,7 @@
     "angular-route": "~1.4.1",
     "angular-animate": "~1.4.1",
     "angular-resource": "~1.4.1",
-    "requirejs": "~2.1.18"
+    "requirejs": "~2.1.18",
+    "jquery": "~2.1.4"
   }
 }
